@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#section {
+  border: 2px solid lightseagreen;
+  padding: 25px;
+  width: 400px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+#section img {
+  width: 100%;
+}
+#flower {
+  border: 3px solid black;
+  padding: 15px;
+}
+#second-sec {
+  border: 2px solid red;
+  margin: 20px;
+}
+#div {
+  border: 3px solid black;
+  margin: 1px;
+  width: 300px;
+}
+#div #p-one {
+  border: 2px solid darkgreen;
+  margin: 10px;
+  background-color: greenyellow;
+}
+#div #p-two {
+  border: 3px solid red;
+  margin: 50px;
+  padding: 50px;
+  background-color: darkorange;
+}
+#third-sec {
+  border: 2px solid darkorchid;
+  margin: 20px;
+  margin-top: 50px;
+}
+#p-third {
+  border: 3px solid black;
+  margin: 9px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+#p-fourth {
+  border: 1px solid black;
+  padding: 3px;
+  padding-bottom: 30px;
+  margin: 9px;
+  margin-bottom: 100px;
+  width: 90%;
+}
