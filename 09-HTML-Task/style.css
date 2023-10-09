@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 30px;
+  background-color: black;
+  margin-bottom: 40px;
+}
+footer {
+  height: 30px;
+  margin: 0px 35px;
+  background-color: pink;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.boxes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.boxes .box {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(12, 158, 158);
+  border-radius: 8px;
+}

@@ -1,0 +1,92 @@
+body {
+  background-color: bisque;
+}
+#div #one {
+  font-size: 40px;
+  font-family: "AR One Sans", sans-serif;
+  font-weight: 600;
+  color: blue;
+  text-decoration: dashed;
+  text-shadow: 3px 3px 5px lightblue;
+}
+#div #two {
+  font-size: 40px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  color: red;
+  text-shadow: 5px 5px 8px #ff7856;
+}
+#div #three {
+  font-size: 20px;
+  color: aquamarine;
+  text-indent: 60px;
+  font-family: "Monoton", cursive;
+  font-weight: 500;
+  text-decoration: dotted black;
+  text-decoration-line: underline;
+}
+#div #three span {
+  font-weight: 400;
+  color: black;
+}
+#div #four {
+  font-size: 40px;
+  color: green;
+  font-family: "Martian Mono", monospace;
+  text-shadow: 5px 0 6px yellow;
+}
+#div #five {
+  font-size: 25px;
+  color: chocolate;
+  text-shadow: 8px 0 10px orange;
+  font-family: "Monoton", cursive;
+}
+#div #six {
+  font-size: 40px;
+}
+#div #seven {
+  letter-spacing: 3px;
+  color: blueviolet;
+  font-size: 30px;
+  text-decoration: underline black;
+}
+#div #eight {
+  font-size: 30px;
+  color: aquamarine;
+  text-indent: 60px;
+  font-family: "Monoton", cursive;
+  font-weight: 400;
+  text-decoration: dashed lightblue;
+  text-decoration-line: underline;
+}
+#div #nine {
+  font-style: italic;
+  font-size: xx-large;
+  text-decoration-thickness: 3px;
+}
+#div #ten {
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  color: dimgrey;
+  text-decoration: line-through red;
+  text-decoration-line: line-through;
+}
+#div #eleven {
+  border: 4px dashed darkgoldenrod;
+  font-size: 40px;
+  font-family: "AR One Sans", sans-serif;
+  text-indent: 50px;
+  text-transform: capitalize;
+  color: cornflowerblue;
+}
+#div #test {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  text-indent: 50px;
+  text-align-last: left;
+  text-transform: lowercase;
+  text-decoration: double red;
+  text-decoration-line: underline;
+}
