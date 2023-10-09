@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: bisque;
 }
@@ -90,3 +91,26 @@ body {
   text-decoration: double red;
   text-decoration-line: underline;
 }
+=======
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.box .little,
+.box .big,
+.box .normal {
+  height: 25vh;
+  background-color: rgb(7, 163, 7);
+  margin-bottom: 20px;
+  border: 3px solid black;
+}
+.box .little {
+  width: 5%;
+}
+.box .big {
+  width: 70%;
+}
+.box .normal {
+  width: 20%;
+}
+>>>>>>> 070988768d7cfc7db0d86aeb3f854bd1c0dcb55e
