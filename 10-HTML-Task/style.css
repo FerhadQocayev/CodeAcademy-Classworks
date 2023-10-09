@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+#section {
+  background-image: linear-gradient(purple, red);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#section #instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#instagram #form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+#form h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: "Anton", sans-serif;
+}
+#form form div input {
+  margin-bottom: 10px;
+  width: 250px;
+  padding: 6px;
+  border-radius: 6px;
+}
+button {
+  background-color: blue;
+  color: white;
+  width: 250px;
+  padding: 4px;
+  border-radius: 6px;
+  margin-bottom: 22px;
+}
+#forgot,
+#log-in,
+#sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#log-in a {
+  font-family: "Anton", sans-serif;
+  color: darkblue;
+}
+#forgot a {
+  color: blue;
+  margin-bottom: 10px;
+}
+#sign {
+  border: 1px solid;
+  padding: 8px;
+}
+#sign a {
+  color: blue;
+}
+#section div h1 {
+  color: white;
+  margin-bottom: 15px;
+}
