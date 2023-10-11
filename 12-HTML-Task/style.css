@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container {
+  height: 250vh;
+}
+#image {
+  background-image: url(./image/istockphoto-1406960186-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+#about {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: rgb(21, 170, 21);
+  position: sticky;
+  top: 0;
+}
+#about div {
+  padding: 15px 0;
+}
+#color-page {
+  background-color: blue;
+  height: 100vh;
+}
+#color-page-2 {
+  background-color: rgb(251, 255, 13);
+  height: 100vh;
+}
+#color-page-3 {
+  background-color: rgb(250, 0, 0);
+  height: 100vh;
+}
