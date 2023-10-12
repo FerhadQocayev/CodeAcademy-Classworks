@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  height: 400vh;
+}
+.all {
+  height: 45vh;
+}
+.head {
+  background-color: black;
+  color: aqua;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  left: 100%;
+}
+.text {
+  margin: 25px;
+}
