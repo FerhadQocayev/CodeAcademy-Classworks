@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.person {
+  display: flex;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+.all {
+  width: 350px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+}
+.person img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 10px;
+}
+.all h1 a {
+  color: black;
+}
+.all h1 {
+  margin-top: 25px;
+}
+#button {
+  width: 252px;
+  border-radius: 6px;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.person-image {
+    width: 40%;
+}
+.text {
+  width: 100%;
+}
+
