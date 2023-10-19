@@ -54,15 +54,6 @@ footer {
   display: flex;
   column-gap: 15px;
 }
-@media screen and (max-width: 767px) {
-  .fa-bars {
-    display: block;
-  }
-  nav,
-  .buttons {
-    display: none;
-  }
-}
 .contact .heading h1 {
   color: white;
   margin-bottom: 20px;
@@ -113,4 +104,19 @@ footer {
 .company-info ul li:hover {
   text-decoration: underline white;
   cursor: pointer;
+}
+
+/* images */
+
+.team {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .fa-bars {
+    display: block;
+  }
+  nav,
+  .buttons {
+    display: none;
+  }
 }
