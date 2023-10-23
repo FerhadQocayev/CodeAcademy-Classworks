@@ -73,6 +73,11 @@ p {
   right: 10px;
   top: 45px;
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 5%;
+  }
+}
 @media screen and (max-width: 767px) {
   .section header nav ul li {
     display: none;
