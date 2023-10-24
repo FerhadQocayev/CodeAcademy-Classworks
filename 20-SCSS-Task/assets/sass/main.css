@@ -1,0 +1,203 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.container .header .headers-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.container .header .headers-left h3 {
+  color: #252b42;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.container .header .headers-left nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.container .header .headers-left nav ul li a {
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #737373;
+}
+.container .header .icons {
+  display: flex;
+}
+.container .header .icons a {
+  color: #737373;
+}
+.container .header .icons a .fa-cart-shopping {
+  display: none;
+}
+.container .header .icons a .fa-magnifying-glass {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .container .header nav {
+    display: none;
+  }
+  .container .header .icons {
+    -moz-column-gap: 13px;
+         column-gap: 13px;
+  }
+  .container .header .icons a .fa-cart-shopping {
+    display: block;
+  }
+  .container .header .icons a .fa-magnifying-glass {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */

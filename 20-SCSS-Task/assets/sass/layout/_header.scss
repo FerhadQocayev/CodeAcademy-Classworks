@@ -1,0 +1,59 @@
+.container {
+  .header {
+    @include flex(space-between);
+    padding: 25px;
+    .headers-left {
+      @include flex();
+      gap: 80px;
+      h3 {
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+      }
+      nav {
+        ul {
+          @include flex();
+          gap: 30px;
+          li {
+            a {
+              font-family: cursive;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 24px;
+              color: $gray-color;
+            }
+          }
+        }
+      }
+    }
+    .icons {
+      display: flex;
+      a {
+        color: $gray-color;
+        .fa-cart-shopping {
+          display: none;
+        }
+        .fa-magnifying-glass {
+          display: none;
+        }
+      }
+    }
+    @media screen and (max-width: 767px) {
+      nav {
+        display: none;
+      }
+      .icons {
+        column-gap: 13px;
+        a {
+          .fa-cart-shopping {
+            display: block;
+          }
+          .fa-magnifying-glass {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
